@@ -42,3 +42,17 @@ class Solution {
             return left;
         }
 };
+
+
+int main() {
+    Solution sol;
+    vector<int> tasks = {3, 5, 8};
+    vector<int> workers = {7, 2, 4};
+    int pills = 1;
+    int strength = 3;
+
+    int result = sol.maxTaskAssign(tasks, workers, pills, strength);
+    cout << result << endl;
+
+    return 0;
+}
